@@ -3,15 +3,13 @@ My Portfolio
 
 Write html and css from scratch to create portfolio as per mockup provided.
 
-![image](https://user-images.githubusercontent.com/88104346/133544891-e9ed7d78-90a7-4fcb-b3a7-eef12adf5ee6.png)
+![image](https://user-images.githubusercontent.com/88104346/133546191-6674da0f-6ddf-43b8-a696-3628628e0dc6.png)
 
 
-![image](https://user-images.githubusercontent.com/88104346/133544914-5112a240-10f9-402b-92d4-8ed9194350ce.png)
+![image](https://user-images.githubusercontent.com/88104346/133546128-01fac9cc-1bac-43b0-87d8-f3ea69355c53.png)
 
 
-![image](https://user-images.githubusercontent.com/88104346/133544931-d3a5e4e3-c446-433f-8582-a3a5b634c630.png)
+![image](https://user-images.githubusercontent.com/88104346/133546053-24612cf5-3bc8-4f3c-af39-2da0794bd2c9.png)
 
-
-![image](https://user-images.githubusercontent.com/88104346/133544942-0147e563-0252-40c0-b414-d7eb66bb3582.png)
 
 Link to the webpage: https://github.com/Pgandhi21/Preksha-Portfolio
