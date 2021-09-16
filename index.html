@@ -14,7 +14,7 @@
     <header class="title">
         <section id="headingBar">
             <h1>Preksha Gandhi</h1>
-            <nav class="content-link">
+            <nav>
                 <ul>
                     <li>
                         <a href="#About-Me">About Me</a>
@@ -33,62 +33,79 @@
         </section>
         <section class="subtitle">
             <img src="./images/Canadian-Rockies.jpg" alt="Canadian-Rockies Image Not Loaded">
-            <h2>Welcome to my Webpage!!</h2>
+            <h2>Welcome to my Webpage!</h2>
         </section>
     </header>
     <main>
-        <block>
-            <h2 class="content-title" id="About-Me">
-               About Me 
-            </h2>
-            <section class="content">
+        <section class="container">
+            <block class="content-title">
+                <h2 id="About-Me">About Me</h2>
+            </block>
+            <block class="details" id="about-Me-details">
                 <img src="./images/IMG_20170908_135256.jpg" alt="My image not loaded">
                 <p>
                     Hi, I am a former Process Engineer. I graduated from Georgia Institute of Technology with a Bachelor of Science in Chemical Engineering. I took break from work due to pregnancy and to take care of my child.
 
                     While working as a Process Engineer, I dabbled a little in coding and fell in love. To me, coding is similar to Process engineer work as you work to increase productivity, efficiency, and/or accessibility.
                 </p>
-            </section>
-        </block>
-        <block>
-            <h2 class="content-title" id="Work">
-                Work 
-             </h2>
-             <section class="content">
-                <div  id="firstProject">
-                    <img src="./images/Horiseon.jpg" alt="Horiseon Image not Loaded">
-                    <a> <a href="https://github.com/Pgandhi21/Horiseon-Code-Refactoring">Horiseon-Code-Refactoring</a></h4>
-                </div>
-                <div>
-                    <img src="./images/flower1.jpg" alt="Flowers Image not Loaded">
-                    <h4 id="Resume"><a href="https://docs.google.com/document/d/1rl9ezCVOHbHvU1OEtUpoK9MHVuAvLB4v/edit?usp=sharing&ouid=115057977998824931353&rtpof=true&sd=true">Resume</a></h4>
-                </div>
-                <div>
-                    <img src="./images/Flower2.jpg" alt="Flowers Image not Loaded">
-                    <h4>Project3</h4>
-                </div>
-                <div>
-                    <img src="./images/Flower3.jpg" alt="Flowers Image not Loaded">
-                    <h4>Project4</h4>
-                </div>
-                <div>
-                    <img src="images/Flower4.jpg" alt="Flowers Image not Loaded">
-                    <h4>Project5</h4>
-                </div>
-             </section>
-        </block>
-        <block>
-            <h2 class="content-title" id="Contact-Me">
-                Contact Me
-            </h2>
-            <nav class="contact-links">
+            </block>
+        </section>
+        <br><br>
+        <section class="container">
+            <block class="content-title">
+                <h2 id="Work">Work</h2>
+            </block>
+            <block class="details card-container" id="work-details">
+                <card class="BigCard">
+                    <a href="https://github.com/Pgandhi21/Horiseon-Code-Refactoring"><img src="./images/Horiseon.jpg" alt="Horiseon Image not Loaded"></a>
+                    <div class="BigCardTitle">
+                        <h3>Horiseon-Code-Refactoring</h3>
+                        <p>Github Repository</p>
+                    </div>
+                </card>
+                <card class="SmallCard">
+                    <a href="https://docs.google.com/document/d/1rl9ezCVOHbHvU1OEtUpoK9MHVuAvLB4v/edit?usp=sharing&ouid=115057977998824931353&rtpof=true&sd=true" ><img src="./images/flower1.jpg" alt="Flowers Image not Loaded"></a>
+                    <div class="SmallCardTitle">
+                        <h3>Resume</h3>
+                        <p>Google Drive</p>
+                    </div>
+                </card>
+                <card class="SmallCard">
+                    <a href="https://www.google.com" ><img src="./images/Flower2.jpg" alt="Flowers Image not Loaded"></a>
+                    <div class="SmallCardTitle">
+                        <h3>Future Project 3</h3>
+                        <p>Google Homepage</p>
+                    </div>
+                </card>
+                <card class="SmallCard">
+                    <a href="https://www.google.com" ><img src="./images/Flower3.jpg" alt="Flowers Image not Loaded"></a>
+                    <div class="SmallCardTitle">
+                        <h3>Future Project 4</h3>
+                        <p>Google Homepage</p>
+                    </div>
+                </card>
+                <card class="SmallCard">
+                    <a href="https://www.google.com" ><img src="./images/Flower4.jpg" alt="Flowers Image not Loaded"></a>
+                    <div class="SmallCardTitle">
+                        <h3>Future Project 5</h3>
+                        <p>Google Homepage</p>
+                    </div>
+                </card>
+            </block>
+        </section>
+        <br><br>
+        <section class="container">
+            <block class="content-title">
+                <h2 id="Contact-Me">Contact Me</h2>
+            </block>
+            <block class="details" id="contact-me-details">
                 <ul>
-                    <li> Phone: 678-877-9756</li>
-                    <li> Email: <a href="mailto: prekshagandhi@gmail.com">prekshagandhi@gmail.com</a></li>
+                    <li> 678-877-9756</li>
+                    <li> <a href="mailto: prekshagandhi@gmail.com">prekshagandhi@gmail.com</a></li>
                     <li> <a href="https://github.com/Pgandhi21">Github</a></li>
                     <li> <a href="http://www.linkedin.com/in/preksha-gandhi-33abab18">LinkedIn</a></li>                 
                 </ul>
-            </nav>
-        </block>
+            </block>
+        </section>
     </main>
 </body>
