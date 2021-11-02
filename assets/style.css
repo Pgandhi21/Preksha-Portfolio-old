@@ -1,190 +1,187 @@
 .root {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  width: 100vw;
 }
 /* Header Styling */
 /* Navigation Bar */
 #headingBar h1 {
-    color: white;
-    font-size: 3rem;
-    padding: 0px 0px 0px 50px;
+  color: white;
+  font-size: 3rem;
+  padding: 0px 0px 0px 50px;
 }
 
 #headingBar {
-    position: relative;
-    top: 0%;
-    width: 100vw;
-    padding: 5px 0px;
-    background-color: blue;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+  position: relative;
+  top: 0%;
+  width: 100vw;
+  padding: 5px 0px;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #headingBar nav ul li {
-    display: inline-block;
-    padding-right: 20px; 
+  display: inline-block;
+  padding-right: 20px;
 }
 
-#headingBar nav ul li a{
-    color: white;
-    font-size: 1.8rem;
+#headingBar nav ul li a {
+  color: white;
+  font-size: 1.8rem;
 }
 
 /* Image and Subtitle */
 .subtitle {
-    position: relative;
-    width: 100vw;
+  position: relative;
+  width: 100vw;
 }
 
-.subtitle img{
-    width: 100vw;
+.subtitle img {
+  width: 100vw;
 }
 
 .subtitle h2 {
-    background-color: blue;
-    color: white;
-    position: absolute;
-    bottom: 10%;
-    right: 5%;
-    font-size: 2rem;    
+  background-color: blue;
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  font-size: 2rem;
 }
 
 /* Main Body */
 main {
-    display: block;
+  display: block;
 }
 
 /* Main Sections (Containers) */
 .container {
-    display: flex;
-    flex-direction: row;
-    padding: 2%;
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
 }
 
 .content-title {
-    width: 25vw;
-    border-right: solid;
-    flex: 0 1 25%;
+  width: 25vw;
+  border-right: solid;
+  flex: 0 1 25%;
 }
 
 .content-title h2 {
-    text-align: right;
-    font-size: 3.5rem;
-    color: rgb(3, 3, 54);
-    padding-right: 20px;
-    text-align: right;
+  text-align: right;
+  font-size: 3.5rem;
+  color: rgb(3, 3, 54);
+  padding-right: 20px;
+  text-align: right;
 }
 
 .details {
-    width: 75vw;
-    padding: 0% 5%;
-    text-align: left;
-    font-size: 1.5rem;
+  width: 75vw;
+  padding: 0% 5%;
+  text-align: left;
+  font-size: 1.5rem;
 }
 
 /* About Me Section */
 #about-Me-details img {
-    height: 150px;
-    width: 150px;
-    float: left;
-    margin: 0 10px 0 0;
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin: 0 10px 0 0;
 }
 
 /* Work Section */
 .card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 10px;
-    padding: 1%;
-    width: 75vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 1%;
+  width: 75vw;
 }
 
 .BigCard img {
-    position: relative;
-    width: 63vw;
-    height: 300px;
-    flex: 1 1 100%;
-    border: #34598d;
-    border-width: 5px;
-    border-style: solid;
+  position: relative;
+  width: 63vw;
+  height: 300px;
+  flex: 1 1 100%;
+  border: #34598d;
+  border-width: 5px;
+  border-style: solid;
 }
 
 .BigCardTitle {
-    background-color: #6a90c5;
-    color: black;
-    position: relative;
-    padding: 10px 5px;
-    bottom: 20%;
+  background-color: #6a90c5;
+  color: black;
+  position: relative;
+  padding: 10px 5px;
+  bottom: 20%;
 }
 
 .BigCardTitle h3 {
-    font-size: 2rem;
-    display: flex;
+  font-size: 2rem;
+  display: flex;
 }
 
 .BigCardTitle p {
-    font-size: 1.8rem;
-    display: flex;
+  font-size: 1.5rem;
+  display: flex;
 }
 
-
 .SmallCard img {
-    position: relative;
-    flex: 1 1 40%;
-    height: 300px;
-    border: #6a90c5;
-    border-style: solid;
-    border-width: 5px;
-    width: 30vw;
+  position: relative;
+  flex: 1 1 40%;
+  height: 300px;
+  border: #6a90c5;
+  border-style: solid;
+  border-width: 5px;
+  width: 30vw;
 }
 
 .SmallCardTitle {
-    background-color: #6a90c5;
-    color: black;
-    position: relative;
-    padding: 10px 5px;
-    bottom: 20%;
+  background-color: #6a90c5;
+  color: black;
+  position: relative;
+  padding: 10px 5px;
+  bottom: 20%;
 }
 
 .SmallCardTitle h3 {
-    font-size: 2rem;
-    display: flex;
+  font-size: 2rem;
+  display: flex;
 }
 
 .SmallCardTitle p {
-    font-size: 1.8rem;
-    display: flex;
+  font-size: 1.5rem;
+  display: flex;
 }
 
 /* Contact Me Section */
 #contact-me-details {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 75vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 75vw;
 }
 
 #contact-me-details ul {
-    display: flex;
-    justify-content: space-evenly; 
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #contact-me-details ul li {
-    display: inline-block;
-    padding: 0px 15px;
-    font-size: 2rem;
-    text-decoration: underline;
+  display: inline-block;
+  padding: 0px 15px;
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
 #contact-me-details ul li a {
-    color: rgb(3, 3, 54);
-    
+  color: rgb(3, 3, 54);
 }
-
